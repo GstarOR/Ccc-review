@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descendant Combinators</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="ansector">
+        <p class="child">This should be styled</p>
+        <p>This should not be styled</p>
+        <p>This should not be styled</p>
+        <p class="child">This should be styled</p>
+        <p class="child">This should be styled</p>
+    </div>
+
+    <br><br>
+    <h2>This can also be done in different divs as below</h2>
+    <br>
+    <div class="ansector">
+        <p class="child">This should be styled</p>
+    </div>
+    <div>
+        <p>This should not be styled</p>
+        <p>This should not be styled</p>
+        <p>This should not be styled</p>
+    </div>
+    <div class="ansector">
+        <p class="child">This should be styled</p>
+        <p class="child">This should be styled</p>
+        <p class="child">This should be styled</p>
+    </div>
+</body>
+</html>

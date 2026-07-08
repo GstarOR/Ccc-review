@@ -1,0 +1,19 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.para{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.para.small-para{
+    font-size: 18px;
+}
+#confirm-button.confirm{
+    color: blue;
+    background-color: yellow;
+}
+#confirm-button {
+    color: white;
+    background-color: green;
+    border-color: black;
+}
