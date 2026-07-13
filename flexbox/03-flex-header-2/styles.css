@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(215, 215, 224);
+    font-family: Besley, Courier, monospace;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 4px;
+}
+
+.div1{
+    display: flex;
+    color: blueviolet;
+    gap: 16px;
+    align-items: center;
+
+}
+
+.div1 div{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.div2{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+button{
+    color: white;
+    padding: 2px 7px;
+    background-color: blueviolet;
+    border-radius: 3px;
+    border: none;
+    height: fit-content;
+}
+
+.round_button{
+    padding: auto;
+    border-radius: 50%;
+    padding: 20px;
+}
